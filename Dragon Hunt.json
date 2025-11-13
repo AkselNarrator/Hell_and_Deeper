@@ -6099,6 +6099,38 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Thorny Rose",
+      "source": "DragonHunt",
+      "page": 35,
+      "baseItem": "pistol|xphb",
+      "type": "R|XPHB",
+      "rarity": "rare",
+      "weight": 3,
+      "entries": [
+        "This masterwork pistol covered by silver images of Rose Bushes. Appearence of It is extremely gorgeous and rich.",
+        "Thorny Rose is first weapon from group of firearm made by famous gunsmith from Baldur's Gate. Rumors said another weapons named as: Windy Anemone, Icy Snowdrop, Fire Lily, Mighty Lithops, The Creeping Creeper",
+        "All these firearm have an ability to shoot by bullets with special effects. Without that specilal bullets it's just a regular +1 Pistol.",
+        {
+          "type": "entries",
+          "name": "Thorny Bullet(target)",
+          "entries": [
+            "Target damaged by that type of bullet should make {@actSave con} {@dc 15}.", 
+            "{@actSaveFail} target start to suffering from Painfull Wound While wounded, the target loses 7 ({@dice 2d6}) {@variantrule Hit Points|XPHB} at the start of each of its turns. Also pain from wound so deep so target get a disadvantage on any mental ability checks until wound not closed. The wound closes, after a spell restores {@variantrule Hit Points|XPHB} to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a {@dc 15} Wisdom ({@skill Medicine|XPHB}) check.",
+            "{@actSaveSucced} target get an additional damage 6 ({@damage 2d6}) from an attack."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Thorny Bullet(area)",
+          "entries": [
+            "Metal rose bushes with a 5-foot radius grow from the point where the bullet hits.",
+            "{@actSaveFail} creature get a 7 ({@dice 2d6}) magical spiked damage and {@condition restrained|XPHB}. Until {@condition restrained|XPHB} ends target get a 7 ({@dice 2d6}) magical spiked damage every time when being attacked or trying to attack. Target or a creature within 5 feet of it takes an action to free if from the bushes ended the {@condition restrained|XPHB} condition, doing so by succeeding on a {@dc 13} Stength ({@skill Athletics|XPHB}) check. Doing so target and creature which taken an action get 7 ({@dice 2d6}) magical spiked damage succeeded Athletics check or not.",
+            "{@actSaveSucced} target get only half damage and pushes away from bushes area."
+          ]
+        }
+      ]
     }
   ]
 }
