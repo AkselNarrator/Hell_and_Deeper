@@ -5944,7 +5944,7 @@
 	    "source": "DragonHunt",
 	    "page": 215,
 	    "srd52": true,
-	    "basicRules2024": true,
+	    "baseItem": "pistol",
 	    "type": "R|XPHB",
 	    "weight": 3,
 	    "weaponCategory": "martial",
@@ -5960,8 +5960,7 @@
 	    "dmgType": "P",
 	    "firearm": true,
 	    "weapon": true,
-	    "ammoType": "firearm bullet|xphb", 
-      "baseItem": "pistol|xphb",     
+	    "ammoType": "firearm bullet|xphb",    
       "rarity": "rare",
       "entries": [
         "This masterwork pistol covered by silver images of Rose Bushes. Appearence of It is extremely gorgeous and rich.",
