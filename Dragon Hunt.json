@@ -5970,16 +5970,17 @@
           "entries": [
             "Target damaged by that type of bullet should make {@actSave con} {@dc 15}.", 
             "{@actSaveFail} target start to suffering from Painfull Wound While wounded, the target loses 7 ({@dice 2d6}) {@variantrule Hit Points|XPHB} at the start of each of its turns. Also pain from wound so deep so target get a disadvantage on any mental ability checks until wound not closed. The wound closes, after a spell restores {@variantrule Hit Points|XPHB} to the target, or after the target or a creature within 5 feet of it takes an action to stanch the wound, doing so by succeeding on a {@dc 15} Wisdom ({@skill Medicine|XPHB}) check.",
-            "{@actSaveSuccess} target get an additional damage 6 ({@damage 2d6}) from an attack."
+            "{@actSaveSuccess} target get an additional  6 ({@dice 2d6}) magical piercing damage from an attack."
           ]
         },
         {
           "type": "entries",
           "name": "Thorny Bullet(area)",
           "entries": [
-            "Metal rose bushes with a 5-foot radius grow from the point where the bullet hits.",
-            "{@actSaveFail} creature get a 7 ({@dice 2d6}) magical spiked damage and {@condition restrained|XPHB}. Until {@condition restrained|XPHB} ends target get a 7 ({@dice 2d6}) magical spiked damage every time when being attacked or trying to attack. Target or a creature within 5 feet of it takes an action to free if from the bushes ended the {@condition restrained|XPHB} condition, doing so by succeeding on a {@dc 13} Stength ({@skill Athletics|XPHB}) check. Doing so target and creature which taken an action get 7 ({@dice 2d6}) magical spiked damage succeeded Athletics check or not.",
-            "{@actSaveSuccess} target get only half damage and pushes away from bushes area."
+            "Metal rose bushes with a 5-foot radius grow from the point where the bullet hits. Any creatures in that area should make {@actSave dex} {@dc 13}.",
+            "{@actSaveFail} creature get a 7 ({@dice 2d6}) magical piercing damage and {@condition restrained|XPHB}. Until {@condition restrained|XPHB} ends target get a 7 ({@dice 2d6}) magical piercing damage every time when being attacked or trying to attack. Target or a creature within 5 feet of it takes an action to free it from the bushes ended the {@condition restrained|XPHB} condition, doing so by succeeding on a {@dc 13} Stength ({@skill Athletics|XPHB}) check. Target and creature which taken an action get 7 ({@dice 2d6}) magical piercing damage succeeded Athletics check or not.",
+            "{@actSaveSuccess} target get only half damage and pushes away from bushes area.",
+            "Bushes create by this bullet has 25 {@variantrule Hit Points|XPHB} in total, 15 {@variantrule Armor Class|XPHB}, ressistance to any physical damage and immune to any magical damage except acid from which one  it have vulnerability."
           ]
         }
       ]
