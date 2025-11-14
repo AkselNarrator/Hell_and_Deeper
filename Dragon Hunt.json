@@ -5980,7 +5980,7 @@
             "Metal rose bushes with a 5-foot radius grow from the point where the bullet hits. Any creatures in that area should make {@actSave dex} {@dc 13}.",
             "{@actSaveFail} creature get a 7 ({@dice 2d6}) magical piercing damage and {@condition restrained|XPHB}. Until {@condition restrained|XPHB} ends target get a 7 ({@dice 2d6}) magical piercing damage every time when being attacked or trying to attack. Target or a creature within 5 feet of it takes an action to free it from the bushes ended the {@condition restrained|XPHB} condition, doing so by succeeding on a {@dc 13} Stength ({@skill Athletics|XPHB}) check. Target and creature which taken an action get 7 ({@dice 2d6}) magical piercing damage succeeded Athletics check or not.",
             "{@actSaveSuccess} target get only half damage and pushes away from bushes area.",
-            "Bushes create by this bullet has 25 {@variantrule Hit Points|XPHB} in total, 15 {@variantrule Armor Class|XPHB}, ressistance to any physical damage and immune to any magical damage except acid from which one  it have vulnerability.",
+            "Bushes create by this bullet has 25 {@variantrule Hit Points|XPHB} in total, 15 {@variantrule Armor Class|XPHB}, ressistance to any physical damage and immunity to any magical damage except acid, which they are vulnerable to.",
             "If any creature with size smaller then Huge move throw bushes area it should make {@actSave dex} {@dc 13} as described above for every 5-feet square filled with bushes."
           ]
         }
