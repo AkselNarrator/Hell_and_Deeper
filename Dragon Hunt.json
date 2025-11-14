@@ -5984,29 +5984,27 @@
         }
       ]
     },
-    {
-	"name": "Crusader's Shortsword",
+        {
+	"name": "Crusader's Shortsword(ThR)",
 	"source": "DragonHunt",
 	"page": 81,
-	"baseItem": "shortsword|xphb",
-	"type": "M|XPHB",
-	"rarity": "unknown (magic)",
-	"reqAttune": true,
-	"sentient": true,
-	"weight": 2,
+	"baseItem": "pistol|xphb",
+	"type": "R|XPHB",
+	"rarity": "rare",
+	"weight": 3,
 	"weaponCategory": "martial",
 	"property": [
-        "L|XPHB",
-        "F|XPHB"
+        "A|XPHB",
+        "LD|XPHB"
       ],
       "mastery": [
         "Vex|XPHB"
       ],
-	"dmg1": "1d6",
+	"dmg1": "1d10",
 	"dmgType": "P",
 	"bonusWeapon": "+1",
 	"entries": [
-		"The Crusader's Shortsword is a sentient lawful good {@item +1 shortsword} (Intelligence 11, Wisdom 13, Charisma 13). It has hearing and normal vision out to a range of 120 feet. It communicates by transmitting emotion to the creature carrying or wielding it.",
+		"This masterwork pistol covered by silver images of Rose Bushes. Appearence of It is extremely gorgeous and rich.",
 		"The sword's purpose is to fight evil. The sword has the following additional properties:",
 		{
 			"type": "list",
