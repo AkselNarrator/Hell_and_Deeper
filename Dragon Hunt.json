@@ -6894,6 +6894,14 @@
             "This weapon has a Thrown property. Tyr's Libra return in owner hand at the end of his turn."
           ]
         },
+                {
+          "type": "entries",
+          "name": "Balance Smite",
+          "entries": [
+            "Owner of the warhammer can use {@spell Divine Smite|XPHB} spell on a 2nd lvl number of times equal of his Proficiency Bonus.",
+            "{@i Should he do it?}"
+          ]
+        },
         {
           "type": "entries",
           "name": "",
