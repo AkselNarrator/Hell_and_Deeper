@@ -5734,9 +5734,7 @@
 		"L"
 	],
 	"type": "beast",
-        "alignment": [
-        null
-      ],
+        "alignment": null,
 	"ac": [
 		12
 	],
@@ -5825,9 +5823,7 @@
 		"M"
 	],
 	"type": "beast",
-          "alignment": [
-        null
-      ],
+          "alignment": null,
 	"ac": [
 		10
 	],
@@ -5898,9 +5894,7 @@
 		"T"
 	],
 	"type": "beast",
-          "alignment": [
-        null
-      ],
+          "alignment": null,
 	"ac": [
 		10
 	],
@@ -5984,9 +5978,7 @@
 		"M"
 	],
 	"type": "beast",
-          "alignment": [
-        null
-      ],
+          "alignment": null,
 	"ac": [
 		13
 	],
@@ -6072,9 +6064,7 @@
 		"T"
 	],
 	"type": "beast",
-          "alignment": [
-        null
-      ],
+          "alignment": null,
 	"ac": [
 		11
 	],
@@ -6167,9 +6157,7 @@
 		"L"
 	],
 	"type": "beast",
-          "alignment": [
-        null
-      ],
+          "alignment": null,
 	"ac": [
 		11
 	],
@@ -6242,9 +6230,7 @@
 		"M"
 	],
 	"type": "beast",
-          "alignment": [
-        null
-      ],
+          "alignment": null,
 	"ac": [
 		11
 	],
@@ -6332,9 +6318,7 @@
 		"L"
 	],
 	"type": "beast",
-          "alignment": [
-        null
-      ],
+          "alignment": null,
 	"ac": [
 		13
 	],
