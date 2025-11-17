@@ -6422,7 +6422,162 @@
 	"miscTags": [
 		"MW"
 	]
-}
+},
+ {
+      "name": "Zephyr Betreyal Deity",
+      "group": [
+        "Genies",
+        "Deity"
+      ],
+      "source": "DragonHunt",
+      "page": 21,
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "Celestial and Elemental",
+        "tags": [
+          "genie",
+          "deity"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        16
+      ],
+      "hp": {
+        "average": 85,
+        "formula": "10d10 + 30"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 90,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 17,
+      "dex": 13,
+      "con": 16,
+      "int": 14,
+      "wis": 15,
+      "cha": 17,
+      "save": {
+        "str": "+6",
+        "dex": "+4",
+        "wis": "+5"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "resist": [
+        "radiant"
+      ],
+      "immune": [
+        "lightning",
+        "thunder"
+      ],
+      "languages": [
+        "Primordial (Auran)",
+        "Common"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The Zephir casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save {@dc 14}):"
+          ],
+          "will": [
+            "{@spell Detect Evil and Good|XPHB}",
+            "{@spell Detect Magic|XPHB}",
+            "{@spell Gust of Wind|XPHB}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell Control Winds|XGE}",
+              "{@spell Tongues|XPHB}",
+              "{@spell Wind Walk|XPHB}",
+              "{@spell Invisibility|XPHB}"
+            ]
+          },
+          "ability": "cha",
+          "displayAs": "action"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Elemental Restoration",
+          "entries": [
+            "If the Zephir dies, its body dissolves into mist, and it gains a new body in {@dice 1d4+4} days, reviving with all its {@variantrule Hit Points|XPHB} in 5-feet radius around his Hell Hound Belt."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Zephir makes two attacks, using Storm Blade or Storm Bolt in any combination."
+          ]
+        },
+        {
+          "name": "Storm Blade",
+          "entries": [
+            "{@atkr m} {@hit 6}, reach 5 feet. {@h}6 ({@damage 1d6 + 3}) Slashing damage plus 7 ({@damage 2d6}) Lightning damage."
+          ]
+        },
+        {
+          "name": "Storm Bolt",
+          "entries": [
+            "{@atkr r} {@hit 6}, range 120 feet. {@h}9 ({@damage 2d8}) Thunder damage. If the target is a Large or smaller creature, it has the {@condition Prone|XPHB} condition."
+          ]
+        },
+        {
+          "name": "Create Whirlwind",
+          "entries": [
+            "The Zephir conjures a whirlwind at a point it can see within 120 feet. The whirlwind fills a 10-foot-radius, 30-foot-high {@variantrule Cylinder [Area of Effect]|XPHB|Cylinder} centered on that point. The whirlwind lasts until the djinni's {@status Concentration|XPHB} on it ends. The djinni can move the whirlwind up to 20 feet at the start of each of its turns.",
+            "Whenever the whirlwind enters a creature's space or a creature enters the whirlwind, that creature is subjected to the following effect. {@actSave str} {@dc 14} (a creature makes this save only once per turn, and the djinni is unaffected). {@actSaveFail} While in the whirlwind, the target has the {@condition Restrained|XPHB} condition and moves with the whirlwind. At the start of each of its turns, the {@condition Restrained|XPHB} target takes 14 ({@damage 4d6}) Thunder damage. At the end of each of its turns, the target repeats the save, ending the effect on itself on a success."
+          ]
+        }
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "AU",
+        "P",
+        "C"
+      ],
+      "damageTags": [
+        "L",
+        "S",
+        "T"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "AOE",
+        "MA",
+        "RA"
+      ],
+      "conditionInflict": [
+        "prone",
+        "restrained"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma"
+      ]
+    }
   ],
   "item": [
     {
