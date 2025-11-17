@@ -5733,12 +5733,14 @@
 		"L"
 	],
 	"type": "beast",
+        "alignment": [
+        null
+      ],
 	"ac": [
 		12
 	],
 	"hp": {
-		"average": "+12 temporary {@variantrule Hit Points}",
-		"formula": "twice druid level"
+		"special": "+12 temporary {@variantrule Hit Points}(twice druid level)"
 	},
 	"speed": {
 		"walk": 50
@@ -5822,12 +5824,14 @@
 		"M"
 	],
 	"type": "beast",
+          "alignment": [
+        null
+      ],
 	"ac": [
 		10
 	],
 	"hp": {
-		"average": "+12 temporary {@variantrule Hit Points}",
-		"formula": "twice druid level"
+		"special": "+12 temporary {@variantrule Hit Points}(twice druid level)"
 	},
 	"speed": {
 		"walk": 40
@@ -5893,12 +5897,14 @@
 		"T"
 	],
 	"type": "beast",
+          "alignment": [
+        null
+      ],
 	"ac": [
 		10
 	],
 	"hp": {
-		"average": "+12 temporary {@variantrule Hit Points}",
-		"formula": "twice druid level"
+		"special": "+12 temporary {@variantrule Hit Points}(twice druid level)"
 	},
 	"speed": {
 		"walk": 20,
@@ -5977,12 +5983,14 @@
 		"M"
 	],
 	"type": "beast",
+          "alignment": [
+        null
+      ],
 	"ac": [
 		13
 	],
 	"hp": {
-		"average": "+12 temporary {@variantrule Hit Points}",
-		"formula": "twice druid level"
+		"special": "+12 temporary {@variantrule Hit Points}(twice druid level)"
 	},
 	"speed": {
 		"walk": 50,
@@ -6063,12 +6071,14 @@
 		"T"
 	],
 	"type": "beast",
+          "alignment": [
+        null
+      ],
 	"ac": [
 		11
 	],
 	"hp": {
-		"average": "+12 temporary {@variantrule Hit Points}",
-		"formula": "twice druid level"
+		"special": "+12 temporary {@variantrule Hit Points}(twice druid level)"
 	},
 	"speed": {
 		"walk": 20,
@@ -6156,12 +6166,14 @@
 		"L"
 	],
 	"type": "beast",
+          "alignment": [
+        null
+      ],
 	"ac": [
 		11
 	],
 	"hp": {
-		"average": "+12 temporary {@variantrule Hit Points}",
-		"formula": "twice druid level"
+		"special": "+12 temporary {@variantrule Hit Points}(twice druid level)"
 	},
 	"speed": {
 		"walk": 60
@@ -6229,12 +6241,14 @@
 		"M"
 	],
 	"type": "beast",
+          "alignment": [
+        null
+      ],
 	"ac": [
 		11
 	],
 	"hp": {
-		"average": "+12 temporary {@variantrule Hit Points}",
-		"formula": "twice druid level"
+		"special": "+12 temporary {@variantrule Hit Points}(twice druid level)"
 	},
 	"speed": {
 		"walk": 30,
@@ -6317,12 +6331,14 @@
 		"L"
 	],
 	"type": "beast",
+          "alignment": [
+        null
+      ],
 	"ac": [
 		13
 	],
 	"hp": {
-		"average": "+6 temporary {@variantrule Hit Points}",
-		"formula": "once character level"
+		"special": "+6 temporary {@variantrule Hit Points}(once character level)"
 	},
 	"speed": {
 		"walk": 20,
