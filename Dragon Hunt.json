@@ -4706,12 +4706,12 @@
       "speed": {
         "walk": 30
       },
-      "str": 18,
+      "str": 16,
       "dex": 14,
       "con": 17,
-      "int": 6,
-      "wis": 12,
-      "cha": 8,
+      "int": 12,
+      "wis": 18,
+      "cha": 10,
       "senses": [
         "darkvision 60 ft."
       ],
@@ -4765,13 +4765,13 @@
         {
           "name": "Multiattack",
           "entries": [
-            "The mother makes three Shortsword attacks."
+            "The mother makes three Halberd attacks."
           ]
         },
         {
-          "name": "Shortsword +1",
+          "name": "Halberd +1",
           "entries": [
-            "{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) Piercing damage."
+            "{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 4}) Piercing damage."
           ]
         },
         {
@@ -4791,14 +4791,10 @@
         {
           "name": "Hellish Rebuke",
           "entries": [
-            "The cultist casts  {@spell Hellish Rebuke|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+            "The Mother of the Pack casts  {@spell Hellish Rebuke|XPHB} in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
           ]
         }
       ],
-      "soundClip": {
-        "type": "external",
-        "url": "https://5e.tools/audio/bestiary/merregon.mp3"
-      },
       "traitTags": [
         "Devil's Sight",
         "Magic Resistance",
@@ -4815,37 +4811,11 @@
         "I",
         "TP"
       ],
-      "hasFluff": true,
-      "hasFluffImages": true,
-      "token": {
-        "name": "Merregon",
-        "source": "MPMM"
-      },
-      "fluff": {
-        "name": "Merregon",
-        "source": "MPMM",
-        "entries": [
-          "The souls of fallen soldiers, mercenaries, and bodyguards who served evil without reservation often find everlasting servitude in the Nine Hells as merregons. These faceless foot soldiers are the Hells' legionnaires, tasked with protecting their infernal plane and its rulers against intruders.",
-          "Merregons have no individuality and hence no need for faces. Every merregon legionnaire has a metal mask bolted to its head. Markings on the mask indicate the only elements of the wearer's identity that matter: the commander it serves and the layer of the Nine Hells it protects.",
-          "Because of their unshakable loyalty, merregons form the backbone of many devils' protective retinues. They shrink from no task, no matter how dangerous. Unless ordered to fall back, they never retreat from a fight."
-        ],
-        "images": [
-          {
-            "type": "image",
-            "href": {
-              "type": "internal",
-              "path": "bestiary/MPMM/Merregon.webp"
-            },
-            "credit": "Mark Behm, Min Yum"
-          }
-        ]
-      },
-      "uniqueId": "0b1a80da-1294-413f-ad0e-6d2fd59479d4",
       "spellcasting": [
         {
           "name": "Spellcasting",
           "headerEntries": [
-            "The mother casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 12}, {@hit 3} to hit with spell attacks):"
+            "The mother casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 14}, {@hit 6} to hit with spell attacks):"
           ],
           "daily": {
             "2e": [
@@ -4865,7 +4835,8 @@
         "MLW"
       ],
       "attachedItems": [
-        "+1 shortsword|dmg"
+        "+1 halberd|xphb",
+        "scale mail|xphb"
       ],
       "damageTags": [
         "P"
@@ -6432,7 +6403,7 @@
       "source": "DragonHunt",
       "page": 21,
       "size": [
-        "L"
+        "M"
       ],
       "type": {
         "type": "Celestial and Elemental",
