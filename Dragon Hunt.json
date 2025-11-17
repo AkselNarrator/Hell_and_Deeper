@@ -134,11 +134,11 @@
 			"style": "list-hang-notitle",
 			"columns": 3,
 			"items": [
-        "{@condition Slowed|DnH}",
-        "{@condition Wounded|DnH}",
-        "{@condition Pain|DnH}",
-        "{@condition Freeze|DnH",
-        "{@condition On Fire|DnH}"
+        "{@condition Slowed|DragonHunt}",
+        "{@condition Wounded|DragonHunt}",
+        "{@condition Pain|DragonHunt}",
+        "{@condition Freeze|DragonHunt",
+        "{@condition On Fire|DragonHunt}"
 			]
 		},
 		"A condition doesn't stack with itself; a recipient either has a condition or doesn't. The {@condition Exhaustion|XPHB} condition is an exception to that rule."
@@ -676,7 +676,7 @@
               "{@spell invisibility}",
               "{@spell major image}",
               "{@spell speak with dead}",
-              "{@spell Mass Command|DnH}"
+              "{@spell Mass Command|DragonHunt}"
             ],
             "1e": [
               "{@spell banishment}",
