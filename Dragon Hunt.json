@@ -6862,22 +6862,23 @@
           "type": "entries",
           "name": "There-and-Back-Again",
           "entries": [
-            "This weapon has a Thrown property. Tyr's Libra return in owner hand at the end of his turn."
+            "This weapon has a Thrown property. Tyr's Libra return in owner's hand at the end of his turn."
           ]
         },
                 {
           "type": "entries",
           "name": "Balance Smite",
           "entries": [
-            "Owner of the warhammer can use {@spell Divine Smite|XPHB} spell on a 2nd lvl number of times equal of his Proficiency Bonus.",
-            "{@i Should he do it?}"
+            "Owner of the warhammer can use {@spell Divine Smite|XPHB} spell number of times equal of his Proficiency Bonus. All spend uses recharge after a long rest.",
+            "Every time he do it he has a 15% accumulative chance to cast {@spell Inflict Wounds|XPHB} spell on him self based on his spell DC. Also owner of the Libra can willingly cast {@spell Inflict Wounds|XPHB} on him self after usage a {@spell Divine Smite|XPHB} and even fail a saving throw.",
+            "No matter why {@spell Inflict Wounds|XPHB} was cast, chance to cast it after next {@spell Divine Smite|XPHB} reduces to zero."
           ]
         },
         {
           "type": "entries",
           "name": "",
           "entries": [
-            "{@b \"Be Fair and you will be Rewarded by Balance\"}"
+            "{@b \"Be in Balance and you will be Rewarded\"}"
           ]
         }
       ]
