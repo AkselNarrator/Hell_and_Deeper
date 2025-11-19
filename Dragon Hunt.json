@@ -117,29 +117,29 @@
     "source":"DragonHunt",
     "page":41,
     "entries": [
- "While you have the On Fire(X) condition, you experience the following effects.",
+ "While you have the Intoxication(X) condition, you experience the following effects.",
 {
 "type": "entries",
  "entries": [
   {
  "type": "entries",
- "name": "Burning",
+ "name": "Sickness",
  "entries": [
- "At the start of your turn you get X amount of Fire damage."
+ "While your X more than your Constitution you are {@condition Poisoned}."
  ]
  },
   {
  "type": "entries",
- "name": "Painfullness",
+ "name": "Sepsis",
  "entries": [
- "You have the {@condition Pain|XPHB} condition."
+ "While your X twice more than your Constitution you are loses {@dice 2d6} {@variantrule Hit Points|XPHB}."
  ]
  },
   {
  "type": "entries",
- "name": "Warmed up",
+ "name": "Anaphylactic shock",
  "entries": [
- "You have the {@variantrule Resistance|XPHB} to cold Damage and {@condition Freeze|XPHB} condition and {@variantrule Vulnerabilyity|XPHB} to Fire damage and {@condition On Fire|XPHB} condition."
+ "If your X three times more than your Constitution your {@variantrule Hit Points|XPHB} drops to 0."
  ]
  }
   ]
@@ -164,7 +164,44 @@
 	"page": 54,
 	"ruleType": "V",
 	"entries": [
-		"If you roll a 20 on the {@dice d20} for an attack roll, you score a Critical Hit, and the attack hits regardless of any modifiers or the target's AC. A Critical Hit lets you maximize you damage roll and roll extra dice for the attack's damage against the target, add them together. Then add any relevant modifiers."
+		"Алхимия не всегда идет на пользу целиком. Каждое зелье которое не приготовленно в идеальном соответствии с рецептом и в составе которого не идеально пдобранные компоненты может с легкостью вызвать у того кто её принимает неожиданные и неприятные эффекты.",
+    "Каждое зелье имеет определенное значение Токсичности в зависимости от его качества и редкости. Выпивая или используя зелья вы получате состояние {@condition Intoxication|DnH} со значением равным Токсичности зелья.",
+    "Исцеление Интоксикации работает по следующим правилам:",
+      {
+ "type": "entries",
+ "name": "Короткий отдых",
+ "entries": [
+ "Интоксикация снижается на значение равное модификатору Телосложения после окончания короткого отдыха."
+ ]
+ },
+          {
+ "type": "entries",
+ "name": "Лечение",
+ "entries": [
+ "Интоксикация снижается на значение равное модификатору Телосложения после любого не химического лечения. Но только в случае если лечение восстановило хотя бы 1 ОЗ."
+ ]
+ }, 
+{
+ "type": "entries",
+ "name": "Восстановление",
+ "entries": [
+ "Интоксикация снижается на значение равное удвоенному модификатору Телосложения после применения малого восстановления или аналогичных эффектов."
+ ]
+ }, 
+{
+ "type": "entries",
+ "name": "Высшее восстановление",
+ "entries": [
+ "Интоксикация снижается на значение равное утроенному модификатору Телосложения после применения высшего восстановления или аналогичных эффектов."
+ ]
+ }, 
+{
+ "type": "entries",
+ "name": "Долгий отдых",
+ "entries": [
+ "Снижает интоксикацию до 0."
+ ]
+ }
 	]
 },
 {
