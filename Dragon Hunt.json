@@ -6320,7 +6320,8 @@
     "deception": "+3"
 	},
   	"senses": [
-		"Darkvision 60 ft."
+		"Darkvision 60 ft.",
+    "telepathy 60 ft."
 	],
 	"passive": 16,
   "trait": [
@@ -6339,7 +6340,7 @@
         {
           "name": "Class Feature",
           "entries": [
-            "You can use your class feature like {@b Martial Arts}(already count in attacks), {@b Unarmored Defense}(already count in AC), {@b Monk's Focus}, {@b Unarmored Movement}(already count in speed), {@b Uncanny Metabolism}, {@b Deflect Attacks}, {@b Shadow Arts}(alreagy count in darkvision), {@b Slow Fall}, {@b Extra Attack}(already count in attacks, {@b Stunning Strike}, {@b Empowered Strikes}, {@b Shadow Step},"
+            "You can use your class feature like {@b Martial Arts}(already count in attacks), {@b Unarmored Defense}(already count in AC), {@b Monk's Focus}, {@b Unarmored Movement}(already count in speed), {@b Uncanny Metabolism}, {@b Deflect Attacks}, {@b Shadow Arts}(alreagy count in darkvision), {@b Slow Fall}, {@b Extra Attack}(already count in attacks), {@b Stunning Strike}, {@b Empowered Strikes}, {@b Shadow Step},"
           ]
         },
 		{
