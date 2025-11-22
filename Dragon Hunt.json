@@ -6598,7 +6598,186 @@
       "savingThrowForcedSpell": [
         "charisma"
       ]
-    }
+    },
+    {
+	"name": "Succubus Drow",
+	"source": "DragonHunt",
+	"page": 303,
+	"size": [
+		"M"
+	],
+	"type": "fiend",
+	"alignment": [
+		"N",
+		"E"
+	],
+	"ac": [
+		15
+	],
+	"hp": {
+		"average": 88,
+		"formula": "16d8 + 16"
+	},
+	"speed": {
+		"walk": 30,
+		"fly": 60
+	},
+	"str": 10,
+	"dex": 17,
+	"con": 13,
+	"int": 15,
+	"wis": 18,
+	"cha": 20,
+	"skill": {
+		"deception": "+9",
+		"persuasion": "+9",
+		"stealth": "+7",
+    "insight": "+7",
+		"perception": "+7",
+		"religion": "+4"
+		},
+	"senses": [
+		"Darkvision 120 ft."
+	],
+	"passive": 17,
+	"resist": [
+		"cold",
+		"fire",
+		"poison",
+		"psychic"
+	],
+	"languages": [
+		"Abyssal",
+		"Common",
+    "Elvish",
+		"Undercommon",
+		"Infernal; telepathy 60 ft."
+	],
+	"cr": "9",
+  "spellcasting": [
+		{
+			"name": "Spellcasting",
+			"type": "spellcasting",
+			"headerEntries": [
+				"The drow casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability:"
+			],
+			"will": [
+				"{@spell Dancing Lights|XPHB}",
+				"{@spell Guidance|XPHB}",
+				"{@spell Thaumaturgy|XPHB}"
+			],
+			"ability": "wis",
+			"displayAs": "action"
+		},
+		{
+			"name": "Lolth's Blessing (3/Day)",
+			"type": "spellcasting",
+			"headerEntries": [
+				"The drow casts {@spell Cure Wounds|XPHB}, {@spell Darkness|XPHB}, {@spell Dispel Magic|XPHB}, or {@spell Lesser Restoration|XPHB}, using the same spellcasting ability as Spellcasting."
+			],
+			"daily": {
+				"3": [
+					"{@spell Cure Wounds|XPHB}",
+					"{@spell Darkness|XPHB}",
+					"{@spell Dispel Magic|XPHB}",
+					"{@spell Lesser Restoration|XPHB}"
+				]
+			},
+			"ability": "wis",
+			"displayAs": "bonus",
+			"hidden": [
+				"daily"
+			]
+		}
+	],
+	"trait": [
+		{
+			"name": "Incubus Form",
+			"entries": [
+				"When the succubus finishes a {@variantrule Long Rest|XPHB}, it can shape-shift into an {@creature Incubus|XMM}, using that stat block instead of this one."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack",
+			"entries": [
+				"The succubus makes one Fiendish Touch attack and uses Charm or Draining Kiss {@b OR} the drow makes three Scourge attacks."
+			]
+		},
+    	{
+			"name": "Scourge",
+			"entries": [
+				"{@atkr m} {@hit 7}, reach 10 ft. {@h}6 ({@damage 1d6 + 4}) Piercing damage plus 17 ({@damage 5d6}) Poison damage."
+			]
+		},
+		{
+			"name": "Fiendish Touch",
+			"entries": [
+				"{@atkr m} {@hit 8}, reach 5 ft. {@h}16 ({@damage 2d10 + 5}) Psychic damage."
+			]
+		},
+		{
+			"name": "Charm",
+			"entries": [
+				"The succubus casts {@spell Dominate Person|XPHB} (level 8 version), requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 15})."
+			]
+		},
+		{
+			"name": "Draining Kiss",
+			"entries": [
+				"{@actSave con} {@dc 15}, one creature {@condition Charmed|XPHB} by the succubus within 5 feet. {@actSaveFail} 13 ({@damage 3d8}) Psychic damage. {@actSaveSuccess} Half damage. {@actSaveSuccessOrFail} The target's {@variantrule Hit Points|XPHB|Hit Point} maximum decreases by an amount equal to the damage taken."
+			]
+		},
+    {
+			"name": "Spider Vortex {@recharge 5}",
+			"entries": [
+				"{@actSave con} {@dc 15}, each enemy in a 20-foot {@variantrule Emanation [Area of Effect]|XPHB|Emanation} originating from the drow. {@actSaveFail} 33 ({@damage 6d10}) Piercing damage, and the target has the {@condition Restrained|XPHB} condition until the start of the drow's next turn. {@actSaveSuccess} Half damage only."
+			]
+		}
+	],
+	"bonus": [
+		{
+			"name": "Shape-Shift",
+			"entries": [
+				"The succubus shape-shifts to resemble a Medium or Small Humanoid or back into its true form. Its game statistics are the same in each form, except its {@variantrule Fly Speed|XPHB} is available only in its true form. Any equipment it's wearing or carrying isn't transformed."
+			]
+		}
+	],
+	"environment": [
+		"planar, lower",
+		"urban"
+	],
+	"treasure": [
+		"implements"
+	],
+	"senseTags": [
+		"D"
+	],
+	"actionTags": [
+		"Multiattack"
+	],
+	"languageTags": [
+		"AB",
+		"C",
+		"I",
+    "E",
+		"U",
+		"TP"
+	],
+	"damageTags": [
+		"Y",
+		"I",
+		"P"
+	],
+	"miscTags": [
+		"MA"
+	],
+	"savingThrowForced": [
+		"constitution"
+	]
+}
+
   ],
   "item": [
     {
