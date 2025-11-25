@@ -221,9 +221,51 @@
 	"page": 56,
 	"ruleType": "V",
 	"entries": [
-		"В начале каждой сессии каждый игрок получает 1 Очко Героя. Мастер может поставить дополнительные условия получения, например если игрок верно восстановит порядок событий на предудыщей партии или в компании вообще.",
-    "Очко героя обозначает возможность персонажу игрока выполнить автоматически успешное действие. Если успешное действие вообще возможно в рамках логики игры и/или ситуации. Одно из самых простых вариантов использования оска героя это увеличение степени успеха по шкале Критический провал-Провал-Успех-Критический успех",
-    "Каждый игрок должен в начале сессии и после окончания инициативы получать жетон \"нарратиного контроля окружения\"" 
+		"В начале каждой сессии каждый игрок получает 1 Жетон Героя. Мастер может поставить дополнительные условия получения, например если игрок верно восстановит порядок событий на предудыщей партии или в компании вообще.",
+    "Жетон Героя обозначает возможность персонажа игрока временно изменить правила в угоду себе. Далее приведены несколько примеров использования Жетона Героя:",
+    {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "type": "item",
+              "name": "Атака",
+              "entries": [
+                "Используя {@b Жетон} можно избежать последствий Критического Промаха и превратить его в обычный Промах, Промах можно превратить в Попадание, а Попадание возможно превратить в {@variantrule Improved Critical Hit|DnH|XPHB|Критический Удар}."
+              ]
+            },
+            {
+              "type": "item",
+              "name": "Проверки навыков",
+              "entries": [
+                "Использование Жетона позволяет изменить результат своего броска {@variantrule D20 test|XPHB|К20"
+              ]
+            },
+            {
+              "type": "item",
+              "name": "Flee",
+              "entries": [
+                "The target spends its turn moving away from you by the fastest available means."
+              ]
+            },
+            {
+              "type": "item",
+              "name": "Grovel",
+              "entries": [
+                "The target has the {@condition Prone|XPHB} condition and then ends its turn."
+              ]
+            },
+            {
+              "type": "item",
+              "name": "Halt",
+              "entries": [
+                "On its turn, the target doesn't move and takes no action or {@variantrule Bonus Action|XPHB}."
+              ]
+            }
+          ]
+        },
+    
+    "Также одно из применений Жетона " 
 	]
 },
 {
@@ -2557,10 +2599,6 @@
           ]
         }
       ],
-      "tokenHref": {
-        "type": "external",
-        "url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2021MagesOfStrixhaven/tokens/Ancient Companion.webp"
-      },
       "miscTags": [
         "MA",
         "RA",
@@ -2815,10 +2853,6 @@
           ]
         }
       ],
-      "tokenHref": {
-        "type": "external",
-        "url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2021MagesOfStrixhaven/tokens/Ancient Companion.webp"
-      },
       "miscTags": [
         "MA",
         "RA",
@@ -2944,10 +2978,6 @@
           ]
         }
       ],
-      "tokenHref": {
-        "type": "external",
-        "url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2021MagesOfStrixhaven/tokens/Ancient Companion.webp"
-      },
       "miscTags": [
         "MA",
         "RA",
@@ -3073,10 +3103,6 @@
           ]
         }
       ],
-      "tokenHref": {
-        "type": "external",
-        "url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2021MagesOfStrixhaven/tokens/Ancient Companion.webp"
-      },
       "miscTags": [
         "MA",
         "RA",
@@ -3202,10 +3228,6 @@
           ]
         }
       ],
-      "tokenHref": {
-        "type": "external",
-        "url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2021MagesOfStrixhaven/tokens/Ancient Companion.webp"
-      },
       "miscTags": [
         "MA",
         "RA",
