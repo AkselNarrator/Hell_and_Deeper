@@ -2247,7 +2247,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/AkselNarrator/Hell_and_Deeper/refs/heads/Char_Tokens/Amara.webp"
+        "url": "https://raw.githubusercontent.com/AkselNarrator/Hell_and_Deeper/db20da87a9cb81a4bb39d656e3f610914be56576/Amara.webp"
       },
       "damageTags": [
         "B",
@@ -2632,6 +2632,10 @@
         "B",
         "R"
       ],
+            "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/AkselNarrator/Hell_and_Deeper/db20da87a9cb81a4bb39d656e3f610914be56576/Amara.webp"
+      },
       "uniqueId": "b9dcc093-e20a-4a7d-9bff-3ecfddd8f1a1"
     },
     {
@@ -2726,7 +2730,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/TheGiddyLimit/unearthed-arcana/master/_img/UA2021MagesOfStrixhaven/tokens/Ancient Companion.webp"
+        "url": "https://raw.githubusercontent.com/AkselNarrator/Hell_and_Deeper/db20da87a9cb81a4bb39d656e3f610914be56576/Amara.webp"
       },
       "miscTags": [
         "MA",
@@ -3011,6 +3015,10 @@
         "B",
         "R"
       ],
+            "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/AkselNarrator/Hell_and_Deeper/db20da87a9cb81a4bb39d656e3f610914be56576/Amara.webp"
+      },
       "uniqueId": "2870fe4e-fa36-443c-bca6-304bc987b48b"
     },
     {
@@ -3136,6 +3144,10 @@
         "B",
         "R"
       ],
+            "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/AkselNarrator/Hell_and_Deeper/db20da87a9cb81a4bb39d656e3f610914be56576/Amara.webp"
+      },
       "uniqueId": "6d8c11f1-bec9-49a9-8f04-08bbc24b81f3"
     },
     {
@@ -3261,6 +3273,10 @@
         "B",
         "R"
       ],
+            "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/AkselNarrator/Hell_and_Deeper/db20da87a9cb81a4bb39d656e3f610914be56576/Amara.webp"
+      },
       "uniqueId": "3cc9187f-098e-4041-a4d0-737384e33ff4"
     },
     {
@@ -6767,6 +6783,10 @@
 	"miscTags": [
 		"MA"
 	],
+  "tokenHref": {
+   "type": "external",
+   "url": "https://raw.githubusercontent.com/AkselNarrator/Hell_and_Deeper/db20da87a9cb81a4bb39d656e3f610914be56576/Amara.webp"
+  },
 	"savingThrowForced": [
 		"constitution"
 	]
