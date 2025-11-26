@@ -4100,38 +4100,41 @@
       ]
     },
     {
-      "name": "Knight from the Cage",
+      "name": "Young Darius",
       "source": "DragonHunt",
       "page": 184,
       "size": [
-        "S",
         "M"
       ],
-      "type": "humanoid",
+      "type": "humanoid(drow)",
       "alignment": [
-        "N"
+        "NG"
       ],
       "ac": [
         18
       ],
       "hp": {
-        "average": 52,
-        "formula": "8d8 + 16"
+        "average": 30,
+        "formula": "4d8 + 12"
       },
       "speed": {
         "walk": 30
       },
       "str": 16,
       "dex": 11,
-      "con": 14,
-      "int": 11,
-      "wis": 11,
-      "cha": 15,
+      "con": 16,
+      "int": 8,
+      "wis": 12,
+      "cha": 16,
       "save": {
-        "con": "+4",
-        "wis": "+2"
+        "cha": "+5",
+        "wis": "+3"
       },
-      "passive": 10,
+      	"skill": {
+		"athletics": "+5",
+		"persuasion": "+4"
+	},
+      "passive": 11,
       "conditionImmune": [
         "frightened"
       ],
@@ -4139,44 +4142,62 @@
         "Common plus one other language"
       ],
       "cr": "3",
+      "spellcasting": [
+		{
+			"name": "Spellcasting",
+			"headerEntries": [
+				"The Darius is a 3rd level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following Darius spells prepared:"
+			],
+			"spells": {
+				"1": {
+					"slots": 3,
+					"spells": [
+						"{@spell compelled duel}",
+						"{@spell divine favor}",
+						"{@spell heroism}"
+					]
+				}
+			},
+			"ability": "cha",
+			"type": "spellcasting"
+		}
+	],
+  "trait": [
+		{
+			"name": "Divine Smite",
+			"entries": [
+				"When the Darius hits a target with a melee weapon attack, the Darius can expend a spell slot to magically deal an extra 9 (2d8) radiant damage to the target. This damage increases to 14 (3d8) if the target is a fiend or undead."
+			]
+		},
+		{
+			"name": "Lay on Hands (15 points/day)",
+			"entries": [
+				"As an action, the Darius can touch a creature and restore a number of hit points up to the maximum amount remaining in its pool."
+			]
+		}
+	],
       "gear": [
         "greatsword|xphb",
-        "heavy crossbow|xphb",
         "plate armor|xphb"
       ],
       "action": [
         {
           "name": "Multiattack",
           "entries": [
-            "The knight makes two attacks."
+            "The Darius makes two attacks."
           ]
         },
-        {
-          "name": "Spear",
-          "entries": [
-            "{@atk mw,rw} {@hit +5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) Piercing damage or {@h}7 ({@damage 1d8 + 3}) if used by both hands."
-          ]
-        }
-      ],
-      "reaction": [
-        {
-          "name": "Parry",
-          "entries": [
-            "{@actTrigger} The knight is hit by a melee attack roll while holding a weapon. {@actResponse} The knight adds 2 to its AC against that attack, possibly causing it to miss."
-          ]
-        }
-      ],
-      "environment": [
-        "any"
+		{
+			"name": "Greatsword",
+			"entries": [
+				"{@atkr m} {@hit 5}, reach 5 ft. {@h}10 ({@damage 2d6 + 3})"
+			]
+		}
       ],
       "treasure": [
         "armaments",
         "individual"
       ],
-      "soundClip": {
-        "type": "external",
-        "url": "https://5e.tools/audio/bestiary/knight.mp3"
-      },
       "actionTags": [
         "Multiattack",
         "Parry"
@@ -4185,67 +4206,8 @@
         "C",
         "X"
       ],
-      "hasFluff": true,
-      "hasFluffImages": true,
-      "token": {
-        "name": "Knight",
-        "source": "XMM"
-      },
-      "fluff": {
-        "name": "Knight",
-        "source": "XMM",
-        "entries": [
-          {
-            "type": "section",
-            "entries": [
-              "Knights frequently lead troops in combat or work in units that dominate the battlefield. They're often attended by squires, who might be less skilled soldiers or commoners."
-            ]
-          },
-          {
-            "type": "section",
-            "name": "Knights",
-            "entries": [
-              "{@i Battle Masters and Heroic Wanderers}",
-              {
-                "type": "list",
-                "style": "list-hang-notitle",
-                "items": [
-                  {
-                    "type": "item",
-                    "name": "Habitat:",
-                    "entry": "{@filter Any|bestiary|environment=any}"
-                  },
-                  {
-                    "type": "item",
-                    "name": "Treasure:",
-                    "entry": "{@table Random Magic Items - Armaments|XDMG|Armaments}, Individual"
-                  }
-                ]
-              },
-              "Knights are skilled warriors trained for war and tested in battle. Many serve the rulers of a realm, a religion, or an order devoted to a cause."
-            ]
-          }
-        ],
-        "images": [
-          {
-            "type": "image",
-            "href": {
-              "type": "internal",
-              "path": "bestiary/XMM/Knights.webp"
-            },
-            "credit": "Brian Valenzuela"
-          }
-        ]
-      },
-      "uniqueId": "3458f621-3e99-4765-a857-42c65718dc30",
-      "miscTags": [
-        "RW",
-        "MW",
-        "MLW",
-        "THW"
-      ],
       "attachedItems": [
-        "spear|phb"
+        "greatsword|xphb"
       ],
       "damageTags": [
         "P"
