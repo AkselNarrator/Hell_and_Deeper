@@ -55,6 +55,41 @@
 ]
 
   },
+      {
+    "name":"Slowed",
+    "source":"DragonHunt",
+    "page":40,
+    "entries": [
+ "While you have the Slowed condition, you experience the following effects.",
+{
+"type": "entries",
+ "entries": [
+  {
+ "type": "entries",
+ "name": "Speed",
+ "entries": [
+ "Any type of your speed decrease to half of it's maximum."
+ ]
+ },
+ {
+ "type": "entries",
+ "name": "AC",
+ "entries": [
+ "If you have a Dexterity bonus to AC you lose it."
+ ]
+ },
+ {
+ "type": "entries",
+ "name": "Selfcare",
+ "entries": [
+ "If you taken an any of following action:{@action Dash}, {@action Attack}, {@action Jump} or trying to make Strength({@skill Athletics}) or Dexterity({@skill Acrobatics}) checks. you loses X amount of {@variantrule Hit Points|XPHB}."
+ ]
+ }
+  ]
+ }
+]
+
+  },
   {
     "name":"Pain",
     "source":"DragonHunt",
@@ -165,41 +200,71 @@
 	"ruleType": "V",
 	"entries": [
 		"Алхимия не всегда идет на пользу целиком. Каждое зелье которое не приготовленно в идеальном соответствии с рецептом и в составе которого не идеально пдобранные компоненты может с легкостью вызвать у того кто её принимает неожиданные и неприятные эффекты.",
-    "Каждое зелье имеет определенное значение Токсичности в зависимости от его качества и редкости. Выпивая или используя зелья вы получате состояние {@condition Intoxication|DnH} со значением равным Токсичности зелья.",
+    "Каждое зелье имеет определенное значение Токсичности в зависимости от его качества и редкости. Выпивая или используя зелья вы получате состояние {@condition Intoxication|DnH|Интоксикация(X)} со значением равным Токсичности зелья.",
+            {
+          "type": "table",
+          "caption": "Potion's Toxicity",
+          "colStyles": [
+            "col-8 text-center",
+            "col-4 text-center"
+          ],
+          "colLabels": [
+            "Rarity",
+            "Toxicity"
+          ],
+          "rows": [
+            [
+              "Common",
+              "Uncommon",
+              "Rare",
+              "Very Rare",
+              "Legendary",
+              "Artifact"
+            ],
+            [
+              "5",
+              "4",
+              "3",
+              "2",
+              "1",
+              "Variative"
+            ]
+          ]
+        },
     "Исцеление Интоксикации работает по следующим правилам:",
       {
  "type": "entries",
  "name": "Короткий отдых",
  "entries": [
- "Интоксикация снижается на значение равное модификатору Телосложения после окончания короткого отдыха."
+ "{@condition Intoxication|DnH|Интоксикация(X)} снижается на значение равное модификатору Телосложения после окончания короткого отдыха."
  ]
  },
           {
  "type": "entries",
  "name": "Лечение",
  "entries": [
- "Интоксикация снижается на значение равное модификатору Телосложения после любого не химического лечения. Но только в случае если лечение восстановило хотя бы 1 ОЗ."
+ "{@condition Intoxication|DnH|Интоксикация(X)} снижается на значение равное модификатору Телосложения после любого не химического лечения. Но только в случае если лечение восстановило хотя бы 1 ОЗ."
  ]
  }, 
 {
  "type": "entries",
  "name": "Восстановление",
  "entries": [
- "Интоксикация снижается на значение равное удвоенному модификатору Телосложения после применения малого восстановления или аналогичных эффектов."
+ "{@condition Intoxication|DnH|Интоксикация(X)} снижается на значение равное удвоенному модификатору Телосложения после применения малого восстановления или аналогичных эффектов."
  ]
  }, 
 {
  "type": "entries",
  "name": "Высшее восстановление",
  "entries": [
- "Интоксикация снижается на значение равное утроенному модификатору Телосложения после применения высшего восстановления или аналогичных эффектов."
+ "{@condition Intoxication|DnH|Интоксикация(X)} снижается на значение равное утроенному модификатору Телосложения после применения высшего восстановления или аналогичных эффектов."
  ]
  }, 
 {
  "type": "entries",
  "name": "Долгий отдых",
  "entries": [
- "Снижает интоксикацию до 0."
+ "Снижает {@condition Intoxication|DnH|интоксикацию(X)} до 0."
  ]
  }
 	]
@@ -269,7 +334,7 @@
 		{
 			"type": "list",
 			"style": "list-hang-notitle",
-			"columns": 3,
+			"columns": 2,
 			"items": [
         "{@condition Slowed|DragonHunt}",
         "{@condition Wounded|DragonHunt}",
